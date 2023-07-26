@@ -10,7 +10,7 @@ const Color = ({color, setSelectedColor, selected}) => {
 };
 
 const App = () => {
-  const [selectedColor, setSelectedColor] = useState("blue")
+  const [selectedColor, setSelectedColor] = useState("")
   return (
     <div id="container">
       <div id="navbar">
